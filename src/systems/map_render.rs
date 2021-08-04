@@ -19,6 +19,12 @@ pub fn map_render(#[resource] map: &Map, #[resource] camera: &Camera) {
                 };
 
                 draw_batch.set(point - offset, ColorPair::new(WHITE, BLACK), glyph);
+            } else {
+                draw_batch.set(
+                    point - offset,
+                    ColorPair::new(DARKSLATEGRAY, BLACK),
+                    to_cp437('.'),
+                );
             }
         }
     }
