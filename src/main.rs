@@ -8,7 +8,11 @@ mod prelude {
     pub use crate::map::*;
     pub use crate::map_builder::*;
     pub use crate::player::*;
+
     pub use bracket_lib::prelude::*;
+    pub use legion::systems::CommandBuffer;
+    pub use legion::world::SubWorld;
+    pub use legion::*;
 
     pub const SCREEN_WIDTH: i32 = 80;
     pub const SCREEN_HEIGHT: i32 = 50;
