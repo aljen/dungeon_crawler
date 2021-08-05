@@ -46,7 +46,7 @@ pub fn spawn_monster(ecs: &mut World, rng: &mut RandomNumberGenerator, position:
     ));
 }
 
-pub fn spawn_amluet_of_yala(ecs: &mut World, position: Point) {
+pub fn spawn_amulet_of_yala(ecs: &mut World, position: Point) {
     ecs.push((
         Item,
         AmuletOfYala,
