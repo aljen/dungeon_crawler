@@ -28,6 +28,9 @@ pub struct WantsToAttack {
 }
 
 #[derive(Clone, Copy, Debug, PartialEq)]
+pub struct ChasingPlayer;
+
+#[derive(Clone, Copy, Debug, PartialEq)]
 pub struct Health {
     pub current: i32,
     pub max: i32,
@@ -37,4 +40,7 @@ pub struct Health {
 pub struct Name(pub String);
 
 #[derive(Clone, Copy, Debug, PartialEq)]
-pub struct ChasingPlayer;
+pub struct Item;
+
+#[derive(Clone, Copy, Debug, PartialEq)]
+pub struct AmuletOfYala;
