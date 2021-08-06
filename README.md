@@ -5,4 +5,5 @@ and turn-based movement." - from [Hands-on Rust](https://pragprog.com/titles/hwr
 
 ## Screenshots
 
-![screenshot.png](docs/screenshot.png)
+![Dungeon theme](docs/screenshot.png)
+![Forest theme](docs/screenshot_forest.png)
